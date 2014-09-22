@@ -1,0 +1,21 @@
+/*
+	Basic CSS Reset
+========================================== */
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font:14px Georgia serif;
+}
+
+#page-wrap {
+   width:500px;
+   margin:40px auto;
+}
+
+h1 {
+   font-size:52px;
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+  <style type="text/css" media="screen">
+    
+  .slide-up-boxes a {
+    display:block;
+    background:#eee;
+    border:1px solid #ccc;
+    height:65px;
+    margin:0 0 20px 0; 
+    overflow:hidden;
+    color:#000;
+  }
+  
+  .slide-up-boxes h5 {
+    height:65px;
+    text-align:center;
+    line-height:65px;
+    -webkit-transition:margin-top 0.2s linear;
+    -moz-transition:margin-top 0.2s linear;
+    transition:margin-top 0.2s linear;
+  }
+  
+  .slide-up-boxes a:hover h5 {
+    margin-top:-65px;
+  }
+    
+  .slide-up-boxes div {
+    
+    height:45px;
+    padding:10px;
+    -moz-transition:all 0.5s linear;
+    -webkit-transform:rotate(6deg);
+    -moz-transform:rotate(6deg);
+    opacity:0;
+  }
+  
+  .slide-up-boxes a:hover div {
+    -moz-transform:rotate(0deg);
+    opacity:1;
+    background:#000;
+    color:#fff;
+    
+    
+  }
+  </style>
+</head>
+<body>
+
+  <div id="page-wrap">
+  
+    <h1>Slide Up</h1>
+    
+    <section class="slide-up-boxes">
+      
+      <a href="woofu.com">
+        <h5>I work for...</h5>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+      </a>
+      
+    </section> 
+  
+  </div>
+  
+</body>
+</html>
